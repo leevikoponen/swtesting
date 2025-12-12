@@ -1,0 +1,12 @@
+{
+  "name": "software-testing-assignment",
+  "type": "module",
+  "scripts": {
+    "test:watch": "node --test --watch",
+    "test:capture": "node --test --experimental-test-coverage --test-reporter lcov --test-reporter-destination coverage.lcov"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "software-testing-assignment": "git://github.com/otula/COMP.SE.200-2024-2025-1.git"
+  }
+}
