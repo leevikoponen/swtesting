@@ -1,12 +1,13 @@
 {
   "name": "software-testing-assignment",
   "type": "module",
+  "license": "MIT",
+  "author": "",
   "scripts": {
     "test:watch": "node --test --watch",
     "test:capture": "node --test --experimental-test-coverage --test-reporter lcov --test-reporter-destination lcov.info"
   },
   "devDependencies": {
-    "@types/node": "^24",
-    "software-testing-assignment": "git://github.com/otula/COMP.SE.200-2024-2025-1.git"
+    "@types/node": "^24"
   }
 }

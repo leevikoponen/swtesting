@@ -1,14 +1,14 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import defaultTo from "software-testing-assignment/src/defaultTo.js";
-import eq from "software-testing-assignment/src/eq.js";
-import filter from "software-testing-assignment/src/filter.js";
-import get from "software-testing-assignment/src/get.js";
-import isEmpty from "software-testing-assignment/src/isEmpty.js";
-import map from "software-testing-assignment/src/map.js";
-import reduce from "software-testing-assignment/src/reduce.js";
-import toNumber from "software-testing-assignment/src/toNumber.js";
+import defaultTo from "../src/defaultTo.js";
+import eq from "../src/eq.js";
+import filter from "../src/filter.js";
+import get from "../src/get.js";
+import isEmpty from "../src/isEmpty.js";
+import map from "../src/map.js";
+import reduce from "../src/reduce.js";
+import toNumber from "../src/toNumber.js";
 
 test.suite("other prioritized functions", () => {
 	test.suite("defaultTo.js", () => {

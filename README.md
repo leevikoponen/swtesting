@@ -1,11 +1,13 @@
-# Software Testing Coursework
+# Student template
 
-Project repository for Tampere University's Software Testing course.
+## Purpose of this repository
 
-This differs from the official template repository by just using NPM to
-depend on the provided code instead of forking from it as an actual template,
-although the provided `package.json` makes doing so somewhat unergonomic.
+This is a project template for students participating in Software Testing course
+at Tampere University.
 
-Ideally this repository wouldn't even exist and I'm quite certain that outright
-requiring use of external services like this is against school policy, but I
-guess I wouldn't care about such details if I was just about to retire either.
+The repository only contains the source code that is under testing, `package.json` skeleton
+and LICENSE file.
+
+Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
+Removing this license file directly violates terms and conditions of the software under testing.
+Individuals who remove or modify the license file will also carry the consequences.

@@ -1,8 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import capitalize from "software-testing-assignment/src/capitalize.js";
-import chunk from "software-testing-assignment/src/chunk.js";
+import capitalize from "../src/capitalize.js";
+import chunk from "../src/chunk.js";
 
 test.suite("pre planned functions", () => {
 	test.suite("chunk.js", () => {
