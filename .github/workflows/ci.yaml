@@ -26,4 +26,4 @@ jobs:
         if: ${{ success() || steps.test.conclusion == 'failure' }}
         uses: coverallsapp/github-action@v2
         with:
-          file: coverage.lcov
+          file: lcov.info
