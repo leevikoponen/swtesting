@@ -19,9 +19,11 @@ jobs:
         run: npm ci
 
       - name: Run unit tests
+        id: test
         run: npm run test:capture
 
       - name: Upload coverage report
+        if: ${{ success() || steps.test.conclusion == 'failure' }}
         uses: coverallsapp/github-action@v2
         with:
           file: coverage.lcov
